@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main(){
+
+int i; 
+printf("How many name you want?\n");
+scanf("%d",&i);
+
+
+for(int a=1; a<=i; a++){
+if(a%2==0)
+printf("%d.Shovon\n",a);
+
+else
+printf("%d.Siam\n",a);
+
+
+}
+
+return 0; 
+}
